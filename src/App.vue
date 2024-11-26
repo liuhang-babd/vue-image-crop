@@ -16,14 +16,16 @@ export default {
     return {
       options: {
         base: {
-          width: 300,
+          width: 600,
           height: 300
         },
+        img: {
+          path: require('@/assets/crop-demo-image.jpg')
+        }
       }
     }
   },
   mounted() {
-    
   }
 }
 </script>
