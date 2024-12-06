@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <image-crop :options="options"></image-crop>
+    <!-- <image-crop :options="options"></image-crop> -->
+    <scroll-sample></scroll-sample>
   </div>
 </template>
 
 <script>
-import ImageCrop from './VueImageCrop.vue'
+// import ImageCrop from './VueImageCrop.vue'
+import ScrollSample from './ScrollSample.vue'
 
 export default {
   name: 'App',
   components: {
-    ImageCrop
+    // ImageCrop,
+    ScrollSample
   },
   data() {
     return {
